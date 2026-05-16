@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb AI Systems Analysis</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ff5a5f;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto;
+    }
+
+    .summary {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .key-findings {
+      background: #fff3f3;
+      border-left: 6px solid #ff5a5f;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .key-findings h2 {
+      margin-bottom: 10px;
+      color: #ff5a5f;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      color: #ff5a5f;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #ffb3b5;
+      text-decoration: none;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Samantha Hernandez Ramirez</h1>
+  <p>Airbnb AI Systems Analysis: New Host Evaluation — Valencia, Spain</p>
+  <p>MIS 432 · AI in Business · Western Washington University</p>
+</header>
+
+<div class="container">
+
+  <section class="summary">
+    <h2>Executive Summary</h2>
+    <p>
+      This case study evaluates how Airbnb’s AI systems handle a new host listing in Valencia, Spain.
+      I analyzed Airbnb’s matching system, embeddings and clustering, Smart Pricing,
+      interpretability, generative AI content creation, and regulatory risks.
+      My analysis found that Airbnb’s algorithms define competition through guest behavior,
+      Smart Pricing prioritizes occupancy, and Valencia’s 90-day cap weakens the financial case
+      for full-time Airbnb hosting. Based on the analysis, I recommended a hybrid approach.
+    </p>
+  </section>
+
+  <section class="key-findings">
+    <h2>Key Findings</h2>
+    <ul>
+      <li>Airbnb’s embedding system grouped Elena’s apartment with digital-nomad listings instead of nearby family apartments.</li>
+      <li>Smart Pricing optimized for booking probability rather than maximum host profit.</li>
+      <li>The hybrid pricing model improved transparency and explainability for hosts.</li>
+      <li>Valencia’s 90-day cap reduced Airbnb revenue below long-term rental income.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>1. Matching System Evaluation</h2>
+    <p>
+      Airbnb’s matching system connects vague guest requests with listings likely to fit their behavior.
+      The activity showed that the AI predicts preferences rather than simply matching keywords.
+      This impacts hosts because visibility depends on how the platform interprets guest behavior.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>2. Embedding & Positioning Analysis</h2>
+    <p>
+      I positioned Elena’s apartment toward digital nomads by emphasizing fast wifi and workspace features.
+      The apartment clustered with lofts and studios popular with remote workers instead of family rentals.
+      This demonstrated how Airbnb defines competitors using guest behavior rather than physical similarity.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>3. Smart Pricing Evaluation</h2>
+    <p>
+      Smart Pricing responded effectively to changes in demand, seasonality, and lead time.
+      However, the system focused more on maximizing occupancy than maximizing host profit.
+      I found that hosts still need human judgment when deciding whether low-price bookings are worthwhile.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>4. Support Escalation Response</h2>
+    <p>
+      I analyzed Maria’s pricing complaint using Airbnb’s hybrid pricing model.
+      The breakdown showed that winter demand, last-minute booking timing,
+      and oversupply reduced her Saturday night price.
+      The exercise highlighted the importance of interpretability in AI systems.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>5. GenAI Content Audit</h2>
+    <p>
+      I used Claude to generate a listing description, then revised it to sound more realistic and specific.
+      The first version sounded generic, while the final version better targeted digital nomads.
+      This demonstrated why human editing is still necessary when using generative AI.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>6. Regulatory Risk Assessment</h2>
+    <p>
+      Valencia’s 90-day cap significantly reduced projected Airbnb income.
+      At €100 per night, Airbnb revenue would fall below long-term rental income.
+      Based on trends in Spain and other cities, I concluded regulations will likely become stricter over time.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>7. Final Recommendation</h2>
+    <p>
+      I recommended a hybrid approach for Elena. Her apartment fits well within Airbnb’s remote-work market,
+      but regulatory uncertainty makes relying fully on short-term rentals risky.
+      A hybrid strategy allows Elena to benefit from peak tourist seasons while maintaining flexibility for long-term renting.
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <p>Samantha Hernandez Ramirez</p>
+  <p>Western Washington University · MIS 432</p>
+  <p>Email: samanthahernandezshr@gmail.com</p>
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/samantha-hernandez-ramirez/" target="_blank">
+      linkedin.com/in/yourprofile
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
